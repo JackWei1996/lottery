@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jack.lottery.mapper.DltSeerMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jack.lottery.entity.DltSeer">
+        <id column="id" property="id" />
+        <result column="periods" property="periods" />
+        <result column="no1" property="no1" />
+        <result column="no2" property="no2" />
+        <result column="no3" property="no3" />
+        <result column="no4" property="no4" />
+        <result column="no5" property="no5" />
+        <result column="no6" property="no6" />
+        <result column="no7" property="no7" />
+    </resultMap>
+
+</mapper>
