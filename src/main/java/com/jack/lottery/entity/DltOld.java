@@ -41,7 +41,4 @@ public class DltOld implements Serializable {
 
     private Integer no7;
 
-    private String number;
-
-
 }
